@@ -16,3 +16,20 @@ The following techniques have been used:
 
 ## To excute the script
 python < scriptname.py >
+
+## To excute the script
+python < scriptname.py >
+
+# Command to create environment from env.yml 
+
+- conda env create -f environment.yml
+
+The first line of the yml file sets the new environment's name.
+
+Activate the new environment: conda activate myenv
+
+# Activating the Environment we just generated from yml file
+- conda activate myenv 
+
+# Command to run Python script
+- python3 < scriptname.py >
