@@ -1,0 +1,11 @@
+{
+    "workbench.colorTheme": "Default Light+",
+    "python.defaultInterpreterPath": "C:\\Users\\harikrishna.otra\\AppData\\Local\\Microsoft\\WindowsApps\\python3.10.exe",
+    "jake.autoDetect": "on",
+    "debug.javascript.autoAttachFilter": "always",
+    "isort.showNotifications": "onError",
+    "flake8.showNotifications": "always",
+    "black-formatter.importStrategy": "fromEnvironment",
+    "remote.WSL.debug": true,
+    "remote.WSL.fileWatcher.polling": true
+}
