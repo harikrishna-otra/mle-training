@@ -1,0 +1,39 @@
+21/03/2024 16:41:20 - root - INFO - Data is loaded
+21/03/2024 16:41:20 - root - INFO - Data is spliting in train and test
+21/03/2024 16:41:20 - root - INFO - Processed data is saved
+21/03/2024 16:41:20 - root - INFO - Linear regression fitted successfully. Train Data RMSE = 68627.87390018745. Train Data MAE = 49438.66860915827
+21/03/2024 16:41:20 - root - INFO - Decision Tree fitted successfully. Train Data RMSE = 0.0
+21/03/2024 16:43:35 - root - INFO - Random Forest fitted successfully using random search
+21/03/2024 16:43:35 - root - INFO - Score = 49175.920081996424 and Parameters = {'max_features': 7, 'n_estimators': 180}
+21/03/2024 16:43:35 - root - INFO - Score = 50979.31309987477 and Parameters = {'max_features': 5, 'n_estimators': 15}
+21/03/2024 16:43:35 - root - INFO - Score = 50615.31290608045 and Parameters = {'max_features': 3, 'n_estimators': 72}
+21/03/2024 16:43:35 - root - INFO - Score = 50356.50620069724 and Parameters = {'max_features': 5, 'n_estimators': 21}
+21/03/2024 16:43:35 - root - INFO - Score = 49356.66118397995 and Parameters = {'max_features': 7, 'n_estimators': 122}
+21/03/2024 16:43:35 - root - INFO - Score = 50590.24171016077 and Parameters = {'max_features': 3, 'n_estimators': 75}
+21/03/2024 16:43:35 - root - INFO - Score = 50439.661883382774 and Parameters = {'max_features': 3, 'n_estimators': 88}
+21/03/2024 16:43:35 - root - INFO - Score = 49498.226752242146 and Parameters = {'max_features': 5, 'n_estimators': 100}
+21/03/2024 16:43:35 - root - INFO - Score = 50262.550516472504 and Parameters = {'max_features': 3, 'n_estimators': 150}
+21/03/2024 16:43:35 - root - INFO - Score = 63055.85950859079 and Parameters = {'max_features': 5, 'n_estimators': 2}
+21/03/2024 16:44:12 - root - INFO - Random Forest fitted successfully using grid search
+21/03/2024 16:44:12 - root - INFO - Score = 64062.72861884957 and Parameters = {'max_features': 2, 'n_estimators': 3}
+21/03/2024 16:44:12 - root - INFO - Score = 55479.21774655382 and Parameters = {'max_features': 2, 'n_estimators': 10}
+21/03/2024 16:44:12 - root - INFO - Score = 52966.124941638336 and Parameters = {'max_features': 2, 'n_estimators': 30}
+21/03/2024 16:44:12 - root - INFO - Score = 58363.665560496614 and Parameters = {'max_features': 4, 'n_estimators': 3}
+21/03/2024 16:44:12 - root - INFO - Score = 52396.19523340483 and Parameters = {'max_features': 4, 'n_estimators': 10}
+21/03/2024 16:44:12 - root - INFO - Score = 50215.10958041685 and Parameters = {'max_features': 4, 'n_estimators': 30}
+21/03/2024 16:44:12 - root - INFO - Score = 59020.00126496427 and Parameters = {'max_features': 6, 'n_estimators': 3}
+21/03/2024 16:44:12 - root - INFO - Score = 52006.13620481499 and Parameters = {'max_features': 6, 'n_estimators': 10}
+21/03/2024 16:44:12 - root - INFO - Score = 50051.59528363614 and Parameters = {'max_features': 6, 'n_estimators': 30}
+21/03/2024 16:44:12 - root - INFO - Score = 58910.833233016325 and Parameters = {'max_features': 8, 'n_estimators': 3}
+21/03/2024 16:44:12 - root - INFO - Score = 52362.774093865475 and Parameters = {'max_features': 8, 'n_estimators': 10}
+21/03/2024 16:44:12 - root - INFO - Score = 50273.65306916561 and Parameters = {'max_features': 8, 'n_estimators': 30}
+21/03/2024 16:44:12 - root - INFO - Score = 63087.194157215 and Parameters = {'bootstrap': False, 'max_features': 2, 'n_estimators': 3}
+21/03/2024 16:44:12 - root - INFO - Score = 54773.96059466593 and Parameters = {'bootstrap': False, 'max_features': 2, 'n_estimators': 10}
+21/03/2024 16:44:12 - root - INFO - Score = 60379.84359138394 and Parameters = {'bootstrap': False, 'max_features': 3, 'n_estimators': 3}
+21/03/2024 16:44:12 - root - INFO - Score = 51887.898627977534 and Parameters = {'bootstrap': False, 'max_features': 3, 'n_estimators': 10}
+21/03/2024 16:44:12 - root - INFO - Score = 57719.276994840606 and Parameters = {'bootstrap': False, 'max_features': 4, 'n_estimators': 3}
+21/03/2024 16:44:12 - root - INFO - Score = 51419.866104752255 and Parameters = {'bootstrap': False, 'max_features': 4, 'n_estimators': 10}
+21/03/2024 16:44:12 - root - INFO - Feature importance = [(0.3347004211062217, 'median_income'), (0.1484515464975919, 'ocean_proximity_INLAND'), (0.11208819836755245, 'population_per_household'), (0.08541881807993887, 'bedrooms_per_room'), (0.07495701983858023, 'longitude'), (0.0738587945932201, 'latitude'), (0.0569541198553184, 'rooms_per_household'), (0.04110918827175045, 'housing_median_age'), (0.01746012436572701, 'total_rooms'), (0.016710444457357837, 'population'), (0.016121108098280323, 'households'), (0.015916830483945266, 'total_bedrooms'), (0.0034956137594281296, 'ocean_proximity_NEAR OCEAN'), (0.0026716737682140833, 'ocean_proximity_NEAR BAY'), (8.609845687326901e-05, 'ocean_proximity_ISLAND')]
+21/03/2024 16:44:12 - root - INFO - Final model = RandomForestRegressor(max_features=6, n_estimators=30, random_state=42)
+21/03/2024 16:44:12 - root - INFO - Test data is score, RMSE = 47830.186702936946
+21/03/2024 16:44:12 - root - INFO - Predictions saved successfully
