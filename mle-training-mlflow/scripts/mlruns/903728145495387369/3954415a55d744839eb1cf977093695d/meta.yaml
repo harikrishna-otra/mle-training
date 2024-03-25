@@ -1,0 +1,15 @@
+artifact_uri: file:///home/harikrishna/mle-training-refactor/mle-training/mle-training-mlflow/scripts/mlruns/903728145495387369/3954415a55d744839eb1cf977093695d/artifacts
+end_time: 1711357336724
+entry_point_name: ''
+experiment_id: '903728145495387369'
+lifecycle_stage: active
+run_id: 3954415a55d744839eb1cf977093695d
+run_name: PARENT_RUN
+run_uuid: 3954415a55d744839eb1cf977093695d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711357327963
+status: 3
+tags: []
+user_id: harikrishna

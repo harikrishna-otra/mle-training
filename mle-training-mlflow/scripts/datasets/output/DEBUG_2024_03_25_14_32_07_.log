@@ -1,0 +1,18 @@
+25/03/2024 14:32:07 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=/home/harikrishna/mle-training-refactor/mle-training/mle-training-mlflow/scripts, universal_newlines=False, shell=None, istream=None)
+25/03/2024 14:32:07 - git.cmd - DEBUG - Popen(['git', 'version'], cwd=/home/harikrishna/mle-training-refactor/mle-training/mle-training-mlflow/scripts, universal_newlines=False, shell=None, istream=None)
+25/03/2024 14:32:07 - git.cmd - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=/home/harikrishna/mle-training-refactor/mle-training, universal_newlines=False, shell=None, istream=<valid stream>)
+25/03/2024 14:32:07 - root - INFO - Data is loaded
+25/03/2024 14:32:08 - root - INFO - Data is spliting in train and test
+25/03/2024 14:32:08 - root - INFO - Processed data is saved
+25/03/2024 14:32:14 - root - INFO - Random Forest fitted successfully using grid search
+25/03/2024 14:32:14 - root - INFO - Score = 63087.194157215 and Parameters = {'bootstrap': False, 'max_features': 2, 'n_estimators': 3}
+25/03/2024 14:32:14 - root - INFO - Score = 54773.96059466593 and Parameters = {'bootstrap': False, 'max_features': 2, 'n_estimators': 10}
+25/03/2024 14:32:14 - root - INFO - Score = 60379.84359138394 and Parameters = {'bootstrap': False, 'max_features': 3, 'n_estimators': 3}
+25/03/2024 14:32:14 - root - INFO - Score = 51887.898627977534 and Parameters = {'bootstrap': False, 'max_features': 3, 'n_estimators': 10}
+25/03/2024 14:32:15 - root - INFO - Score = 57719.276994840606 and Parameters = {'bootstrap': False, 'max_features': 4, 'n_estimators': 3}
+25/03/2024 14:32:15 - root - INFO - Score = 51419.866104752255 and Parameters = {'bootstrap': False, 'max_features': 4, 'n_estimators': 10}
+25/03/2024 14:32:15 - root - INFO - Final model = RandomForestRegressor(bootstrap=False, max_features=4, n_estimators=10,
+                      random_state=42)
+25/03/2024 14:32:15 - root - INFO - Model saved successfully
+25/03/2024 14:32:16 - root - INFO - Test data is score, RMSE = 49820.37129838454
+25/03/2024 14:32:16 - root - INFO - Predictions saved successfully
