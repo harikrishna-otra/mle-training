@@ -1,0 +1,15 @@
+artifact_uri: file:///home/harikrishna/mle-training-refactor/mle-training/mle-training-mlflow/scripts/mlruns/903728145495387369/336e022419e34912879a8d4ac5aaed4a/artifacts
+end_time: 1711357328213
+entry_point_name: ''
+experiment_id: '903728145495387369'
+lifecycle_stage: active
+run_id: 336e022419e34912879a8d4ac5aaed4a
+run_name: Data Ingestion
+run_uuid: 336e022419e34912879a8d4ac5aaed4a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711357327968
+status: 3
+tags: []
+user_id: harikrishna

@@ -1,0 +1,4 @@
+21/03/2024 16:39:32 - root - INFO - Data is loaded
+21/03/2024 16:39:32 - root - INFO - Data is spliting in train and test
+21/03/2024 16:39:33 - root - INFO - Linear regression fitted successfully. Train Data RMSE = 68627.87390018745. Train Data MAE = 49438.66860915827
+21/03/2024 16:39:33 - root - INFO - Decision Tree fitted successfully. Train Data RMSE = 0.0
